@@ -93,7 +93,7 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-z {
+a {
     font-size: 20px;
     color: #0077cc; /* Color del texto del enlace */
     text-decoration: none; /* Quita el subrayado predeterminado */
@@ -101,7 +101,7 @@ z {
 }
 
 /* Estilo para los enlaces cuando se pasan por encima (hover) */
-z:hover {
+a:hover {
     text-decoration: underline; /* Agrega un subrayado al pasar el mouse sobre el enlace */
 }
 
