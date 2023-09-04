@@ -8,14 +8,26 @@ header {
 }
 
 .logo {
-    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
-    height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 100px; /* Ajusta el tamaño de los logotipos según tus necesidades */
     height: auto;
-    vertical-align: middle;
+    margin-right: 10px; /* Espacio entre los logotipos */
+}
+
+.logo-izquierda {
+    justify-content: flex-start;
+}
+
+.logo-derecha {
+    justify-content: flex-end;
+}
+.nombre-organizacion {
+    font-size: 18px; /* Ajusta el tamaño del texto según tus necesidades */
+    margin-right: 10px; /* Espacio entre el nombre y el logotipo */
 }
 
 h1 {
