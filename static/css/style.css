@@ -94,20 +94,6 @@ tr:nth-child(even) {
 }
 
 a {
-    font-size: 20px;
-    color: #0077cc; /* Color del texto del enlace */
-    text-decoration: none; /* Quita el subrayado predeterminado */
-    font-weight: bold; /* Hace que el texto del enlace sea negrita */
-}
-
-/* Estilo para los enlaces cuando se pasan por encima (hover) */
-a:hover {
-    text-decoration: underline; /* Agrega un subrayado al pasar el mouse sobre el enlace */
-}
-
-
-
-a {
     text-decoration: none;
     background-color: #333;
     color: #fff;
@@ -115,9 +101,6 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
-    background-color: #555;
-}
 
 .contenido {
     /* Estilos para centrar el contenido verticalmente */
