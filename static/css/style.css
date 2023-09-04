@@ -1,5 +1,5 @@
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -30,9 +30,39 @@ header {
     margin-right: 10px; /* Espacio entre el nombre y el logotipo */
 }
 
+
 h1 {
     margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     color: #333;
+}
+.link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.links {
+    text-align: left;
+}
+
+.link {
+    color: #0077cc; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    font-weight: bold; /* Hace que el texto del enlace sea negrita */
+    display: block; /* Convierte el enlace en un bloque para que se muestre uno debajo del otro */
+    margin-bottom: 10px; /* Espacio entre los enlaces */
+}
+
+/* Estilo para los íconos */
+.icono {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
 }
 
 body {
@@ -63,6 +93,20 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+z {
+    font-size: 20px;
+    color: #0077cc; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    font-weight: bold; /* Hace que el texto del enlace sea negrita */
+}
+
+/* Estilo para los enlaces cuando se pasan por encima (hover) */
+z:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el mouse sobre el enlace */
+}
+
+
+
 a {
     text-decoration: none;
     background-color: #333;
@@ -75,5 +119,12 @@ a:hover {
     background-color: #555;
 }
 
+.contenido {
+    /* Estilos para centrar el contenido verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ajusta la altura del contenido según tus necesidades */
+}
 
 
